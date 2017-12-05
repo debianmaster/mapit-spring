@@ -9,4 +9,6 @@ You can deploy MapIt on OpenShift using the provided template:
 ```
 oc new-app -f https://raw.githubusercontent.com/siamaksade/mapit-spring/master/mapit-template.yaml
 ```
+#  image stream import
+```oc import-image --from=registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift --all openjdk18 --confirm```
 
